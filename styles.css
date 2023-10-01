@@ -5,6 +5,8 @@
 }
 body {
   background-color: black;
+  height: 100vh;
+  width: 100vw;
 }
 
 .container {
@@ -93,23 +95,25 @@ p {
 
 .submit {
   width: 370px;
-  height: 45px;
+  height: 40px;
   background-color: hsl(25, 97%, 53%);
   bottom: 270px;
   border-radius: 50px;
+  
 }
 
 .btn1 > span {
   color: hsl(217, 12%, 63%);
-  font-size: 1.2em;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  
 }
 .btn2 > span {
   color: hsl(217, 12%, 63%);
-  font-size: 1.2em;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +121,7 @@ p {
 }
 .btn3 > span {
   color: hsl(217, 12%, 63%);
-  font-size: 1.2em;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,7 +129,7 @@ p {
 }
 .btn4 > span {
   color: hsl(217, 12%, 63%);
-  font-size: 1.2em;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +137,7 @@ p {
 }
 .btn5 > span {
   color: hsl(217, 12%, 63%);
-  font-size: 1.2em;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,5 +150,24 @@ p {
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-size: 15px;
+  font-size: 20px;
+}
+
+img {
+  position: absolute;
+  left: 790px;
+  top: 300px;
+  z-index: 1;
+}
+
+.starCircle {
+  border-radius: 50%;
+  position: absolute;
+
+  width: 40px;
+  height: 40px;
+  left: 778px;
+  top: 289px;
+
+  background-color: hsl(213, 19%, 18%);
 }
