@@ -38,6 +38,7 @@ btn5.addEventListener("mouseover", function () {
     btn5.style.backgroundColor = "hsl(213, 19%, 18%)";
   });
 });
+*/
 
 const submit = document.querySelector(".submit");
 submit.addEventListener("mouseover", function () {
@@ -46,4 +47,3 @@ submit.addEventListener("mouseover", function () {
     submit.style.backgroundColor = "hsl(25, 97%, 53%)";
   });
 });
-*/
