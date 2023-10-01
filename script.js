@@ -1,13 +1,14 @@
 "use strict";
-const btns = document.querySelector(".btn1");
+/*const btns = document.querySelector(".btn1");
 btns.addEventListener("mouseover", function () {
   btns.style.backgroundColor = "hsl(25, 97%, 53%)";
   btns.addEventListener("mouseout", function () {
     btns.style.backgroundColor = "hsl(213, 19%, 18%)";
   });
 });
+*/
 
-const btn2 = document.querySelector(".btn2");
+/*const btn2 = document.querySelector(".btn2");
 btn2.addEventListener("mouseover", function () {
   btn2.style.backgroundColor = "hsl(25, 97%, 53%)";
   btn2.addEventListener("mouseout", function () {
@@ -46,3 +47,4 @@ submit.addEventListener("mouseover", function () {
     submit.style.backgroundColor = "hsl(25, 97%, 53%)";
   });
 });
+*/
